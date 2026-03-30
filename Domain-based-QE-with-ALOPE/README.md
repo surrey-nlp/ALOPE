@@ -131,7 +131,7 @@ If you use this code or dataset, please cite:
 This work builds on and extends:
 
 - **ALOPE Framework**: Sindhujan et al. (2025c). "ALOPE: Adaptive Layer Optimization for Parameter-Efficient Translation Quality Estimation." arXiv:2508.07484. [Link](https://arxiv.org/abs/2508.07484)
-- **Indic MT Community**: [surrey-nlp](https://github.com/surrey-nlp) — Research on low-resource and Indic NLP
+- **Data from**: [SurreyNLP-AI](https://github.com/surrey-nlp) — Existing research on low-resource and Indic NLP
 
 ---
 
