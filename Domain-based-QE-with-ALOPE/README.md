@@ -130,7 +130,7 @@ If you use this code or dataset, please cite:
 
 This work builds on and extends:
 
-- **ALOPE Framework**: Sindhujan et al. (2025c). "ALOPE: Adaptive Layer Optimization for Parameter-Efficient Translation Quality Estimation." arXiv:2508.07484. [Link](https://arxiv.org/abs/2508.07484)
+- **ALOPE Framework**: Sindhujan et al. (2025c). "ALOPE: Adaptive Layer Optimization for Parameter-Efficient Translation Quality Estimation." arXiv:2508.07484. [Link](https://arxiv.org/abs/2508.07484), ACL Anthology [Link](https://aclanthology.org/2026.loreslm-1.55/)
 - **Data from**: [SurreyNLP-AI](https://github.com/surrey-nlp) — Existing research on low-resource and Indic NLP
 
 ---
