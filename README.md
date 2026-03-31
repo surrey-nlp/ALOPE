@@ -7,7 +7,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Published at**: [COLM 2025](https://colmweb.org/2025/AcceptedPapers.html) &bull; [OpenReview](https://openreview.net/forum?id=qSFr5wJPGc)
+**Published at**: [COLM 2025](https://colmweb.org/2025/AcceptedPapers.html) &bull; [arXiv](https://arxiv.org/abs/2508.07484)
 
 ## Overview
 
@@ -239,7 +239,7 @@ If you use this code, framework, or models, please cite:
 
 ## Acknowledgements
 
-We thank the **University of Surrey** for computational resources, the **School of Computer Science and Electronic Engineering** and the **Institute for People-Centred AI** for research support.
+We thank the **Institute for People-Centred AI, University of Surrey** for computational resources and the **School of Computer Science and Electronic Engineering** for research support.
 
 ---
 
