@@ -6,6 +6,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Published at**: [LoResLM @ EACL 2026](https://aclanthology.org/2026.loreslm-1.55/)
+
 ## Overview
 
 This repository contains code, data, and experiments for **domain-specific quality estimation (QE) of machine translation** in low-resource scenarios. The work focuses on **English→Indic language translation** across four distinct domains (Healthcare, Legal, Tourism, General) and five languages (Hindi, Marathi, Tamil, Telugu, Gujarati).
@@ -32,13 +34,13 @@ We introduce **Indic-Domain-QE**, a multi-domain, multi-language dataset for MT 
 
 ### Dataset Statistics
 
-| Domain | Languages | Train | Test | Avg. DA Score |
-|--------|-----------|-------|------|---|
-| **Healthcare** | Hindi, Marathi, Tamil, Gujarati | 13,280 | 1,660 | 71.2 |
-| **Legal** | Gujarati, Tamil, Telugu | 6,160 | 770 | 63.8 |
-| **Tourism** | Hindi, Marathi, Telugu | 13,840 | 1,730 | 72.5 |
-| **General** | Hindi, Marathi, Tamil, Telugu, Gujarati | 18,880 | 2,360 | 68.9 |
-| **Total** | **5 languages** | **52,160** | **6,520** | **69.1** |
+| Domain | Languages | Train | Test |
+|--------|-----------|-------|------|
+| **Healthcare** | Hindi, Marathi, Tamil, Gujarati | 13,280 | 1,660 |
+| **Legal** | Gujarati, Tamil, Telugu | 6,160 | 770 |
+| **Tourism** | Hindi, Marathi, Telugu | 13,840 | 1,730 |
+| **General** | Hindi, Marathi, Tamil, Telugu, Gujarati | 18,880 | 2,360 |
+| **Total** | **5 languages** | **52,160** | **6,520** |
 
 - **DA Scores**: Continuous scale (0–100), averaged from ≥3 independent annotators per sentence pair.
 - **Source**: Machine-translated sentences with human quality annotations.
@@ -89,7 +91,7 @@ We used Spearman correlation, Pearson correlation, and MAE on test sets.
 ## Results Summary
 
 ### ALOPE vs. Prompt-Only Evaluation
-**Metric: Spearman Correlation | Model: LLaMA-3.2-3B Instruct (4-bit QLoRA)**
+**Metric: Spearman Correlation (ρ) | Model: LLaMA-3.2-3B Instruct (4-bit QLoRA)**
 
 | Domain | Zero-Shot | Best Prompt | ALOPE (LoRA) | ALOPE (LoRMA) |
 |--------|-----------|------------|-------------|---------------|
@@ -139,7 +141,7 @@ This work builds on and extends:
 
 We thank:
 - **University of Surrey** for computational resources
-- **School of Computer Science and Electrical Engineering, and Institute for People-Centred AI** for research support
+- **School of Computer Science and Electronic Engineering, and Institute for People-Centred AI** for research support
 - **EACL 2026 LoResLM Workshop** organizers for the opportunity to present this work
 
 ---
@@ -156,4 +158,3 @@ For questions, issues, or collaboration inquiries:
 **Lab**: SurreyNLP-AI, Institute for People-Centred AI, University of Surrey, UK
 
 ---
-
