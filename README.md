@@ -250,4 +250,4 @@ For questions, issues, or collaboration inquiries:
 - **Archchana Sindhujan**: a.sindhujan@surrey.ac.uk
 - **Diptesh Kanojia** (PI): d.kanojia@surrey.ac.uk
 
-**Lab**: [SurreyNLP](https://github.com/surrey-nlp), Institute for People-Centred AI, University of Surrey, UK
+**Lab**: [SurreyNLP-AI](https://github.com/surrey-nlp), Institute for People-Centred AI, University of Surrey, UK
