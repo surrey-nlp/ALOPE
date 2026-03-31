@@ -207,16 +207,31 @@ If you use this code, framework, or models, please cite:
 ### Domain-Specific QE Extension (LoResLM @ EACL 2026)
 
 ```bibtex
-@inproceedings{gurav2026domain,
-  title={Domain-Specific Quality Estimation for Machine Translation in Low-Resource Scenarios},
-  author={Gurav, Namrata Patil and Ranu, Akashdeep and Sindhujan, Archchana and Kanojia, Diptesh},
-  booktitle={Proceedings of the Second Workshop on Language Models for Low-Resource Languages (LoResLM)},
-  pages={XX--XX},
-  year={2026},
-  month={April},
-  address={Valencia, Spain},
-  organization={Association for Computational Linguistics},
-  url={https://arxiv.org/abs/2603.07372}
+@inproceedings{gurav-etal-2026-domain,
+    title = "Domain-Specific Quality Estimation for Machine Translation in Low-Resource Scenarios",
+    author = "Gurav, Namrata Bhalchandra Patil  and
+      Ranu, Akashdeep  and
+      Sindhujan, Archchana  and
+      Kanojia, Diptesh",
+    editor = "Hettiarachchi, Hansi  and
+      Ranasinghe, Tharindu  and
+      Plum, Alistair  and
+      Rayson, Paul  and
+      Mitkov, Ruslan  and
+      Gaber, Mohamed  and
+      Premasiri, Damith  and
+      Tan, Fiona Anting  and
+      Uyangodage, Lasitha",
+    booktitle = "Proceedings of the Second Workshop on Language Models for Low-Resource Languages ({L}o{R}es{LM} 2026)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.loreslm-1.55/",
+    doi = "10.18653/v1/2026.loreslm-1.55",
+    pages = "630--650",
+    ISBN = "979-8-89176-377-7",
+    abstract = "Quality Estimation (QE) is essential for assessing machine translation quality in reference-less settings, particularly for domain-specific and low-resource language scenarios. In this paper, we investigate sentence-level QE for English to Indic machine translation across four domains (Healthcare, Legal, Tourism, and General) and five language pairs. We systematically compare zero-shot, few-shot, and guideline-anchored prompting across selected closed-weight and open-weight LLMs. Findings indicate that while closed-weight models achieve strong performance via prompting alone, prompt-only approaches remain fragile for open-weight models, especially in high-risk domains. To address this, we adopt ALOPE, a framework for LLM-based QE which uses Low-Rank Adaptation with regression heads attached to selected intermediate Transformer layers. We also extend ALOPE with the recently proposed Low-Rank Multiplicative Adaptation (LoRMA) for this work. Our results show that intermediate-layer adaptation consistently improves QE performance, with gains in semantically complex domains, indicating a way ahead for robust QE in practical scenarios. We release code and domain-specific QE datasets publicly for further research."
 }
 ```
 
@@ -233,7 +248,6 @@ We thank the **University of Surrey** for computational resources, the **School 
 For questions, issues, or collaboration inquiries:
 
 - **Archchana Sindhujan**: a.sindhujan@surrey.ac.uk
-- **Shenbin Qian**: shenbin.qian@surrey.ac.uk
-- **Diptesh Kanojia** (Principal Investigator): d.kanojia@surrey.ac.uk
+- **Diptesh Kanojia** (PI): d.kanojia@surrey.ac.uk
 
 **Lab**: [SurreyNLP](https://github.com/surrey-nlp), Institute for People-Centred AI, University of Surrey, UK
